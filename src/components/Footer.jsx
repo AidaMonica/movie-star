@@ -3,6 +3,6 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className='footer'>&copy; Movie Star</div>
+    <div className='footer'>Movie Star &copy; 2024. All rights reserved.</div>
   )
 }

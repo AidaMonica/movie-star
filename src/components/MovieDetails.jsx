@@ -18,7 +18,7 @@ export function MovieDetails({ movieId }) {
   }, []);
 
   if (movie === null) {
-    return <p>Se incarca filmul...</p>
+    return <p>Loading movie...</p>
   }
 
   return (
