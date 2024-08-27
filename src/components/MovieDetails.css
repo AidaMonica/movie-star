@@ -1,0 +1,46 @@
+.movie-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px 16px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  min-height: 60px;
+}
+
+.movie-card i {
+  font-size: 0.8em;
+}
+
+.movie-poster {
+  align-self: center;
+}
+
+.fav-star {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+}
+
+.actors {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.runtime {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.genre {
+  justify-self: flex-end;
+  color: #555;
+  font-weight: bold;
+}
